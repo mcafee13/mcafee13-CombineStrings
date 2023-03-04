@@ -9,6 +9,11 @@ public class Lab {
      * @return the combination of strings a and b.
      */
     public String combine(String a, String b){
-        return "";
+        String ab = a + b;
+        return ab;
+    }
+    public void combinedTest(){
+        Lab Sandwich_ingredients = new Lab();
+        System.out.print(Sandwich_ingredients.combine("Hi", "low"));
     }
 }
